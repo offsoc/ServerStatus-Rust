@@ -41,7 +41,7 @@ pretty_env_logger = "0.5"
 prettytable-rs = "^0.10"
 prost = "0.12"
 reqwest = {version = "0.11", features = ["json", "rustls-tls"], default-features = false}
-rhai = {version = "1.17", features = ["sync", "metadata", "decimal", "no_function", "no_module", "no_closure", "unchecked"]}
+rhai = {version = "1.19", features = ["sync", "metadata", "decimal", "no_function", "no_module", "no_closure", "unchecked"]}
 rust-embed = {version = "8.3", features = ["mime-guess"]}
 rustls-pemfile = { version = "2" }
 serde = {version = "1.0", default-features = false, features = ["derive", "alloc"]}
